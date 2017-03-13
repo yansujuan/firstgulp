@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/UserPortraitSystem.css">
+	<title>UserPortraitSystem</title>
+</head>
+<body>
+	<nav class="navbar navbar-default" role="navigation">
+    <div class="container-fluid">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse"
+                data-target="#example-navbar-collapse">
+            <span class="sr-only">切换导航</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#"><img src="images/ups_03.png"></a>
+
+    </div>
+    <div class="collapse navbar-collapse" id="example-navbar-collapse">
+        <ul class="nav navbar-nav">
+    	<li><a href="#" class='icon-home'>首页</a></li>
+	<li class="active"><a href="#" class='icon-search'>信息查询</a></li>
+	<li><a href="#" class='icon-group'>用户筛选</a></li>
+	<li><a href="#" class='icon-cog'>后台管理</a></li>
+        </ul>
+         <ul class="nav navbar-nav navbar-right"> 
+            <li><a href="#"> <i class='icon-user'></i>
+		<span>wanggong，</span>
+		<strong>工作人员</strong>
+		<small>退出</small></a></li> 
+        </ul> 
+    </div>
+    </div>
+</nav>
+<section>
+	<form class="form-inline" role="form">
+  <div class="form-group">
+  	<span class='form-font'>360账号&M2</span>
+    <label class="sr-only" for="name"></label>
+    <input type="text" class="form-control" id="name">
+  </div>
+	<button id="fat-btn" class="btn btn-primary" data-loading-text="Query..." 
+    type="button"> 查询
+</button>
+</form>
+<div class='top'>
+<div class='headPortrait'>
+	<dl>
+		<dt><img src="images/ups_07.png" alt=""></dt>
+		<dd>刘哼</dd>
+	</dl>
+</div>
+<div class='top-table'>
+<table class="table">
+	<thead>
+		<tr>
+			<th>系统测评</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>微博加v</td>
+			<td>微博加v</td>
+			<td>微博加v</td>
+			<td>微博加v</td>
+			<td>微博加v</td>
+			<td>微博加v</td>
+		</tr>
+		<tr>
+			<td>微博加v</td>
+			<td>微博加v</td>
+			<td>微博加v</td>
+			<td>微博加v</td>
+			<td>微博加v</td>
+			<td>微博加v</td>
+		</tr>
+		<tr>
+			<td>微博加v</td>
+			<td>微博加v</td>
+			<td>微博加v</td>
+			<td>微博加v</td>
+			<td>微博加v</td>
+			<td>微博加v</td>
+		</tr>
+		<tr>
+			<td>微博加v</td>
+			<td>微博加v</td>
+			<td>微博加v</td>
+			<td>微博加v</td>
+			<td>微博加v</td>
+			<td>微博加v</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+<div class='edit'>
+		<a href="#" class="list-group-item list-first">
+    		编辑
+		</a>
+	<ul class="list-group">
+	    <li class="list-group-item"><i class='icon-remove-circle'></i>微博加v</li>
+	    <li class="list-group-item"><i class='icon-remove-circle'></i>微博加v</li>
+	    <li class="list-group-item"><i class='icon-remove-circle'></i>微博加v</li>
+	    <li class="list-group-item"><i class='icon-remove-circle'></i>微博加v</li>
+	    <li class="list-group-item"><i class='icon-remove-circle'></i>微博加v</li>
+	    <li class="list-group-item ad"><i class='icon-plus-sign add'></i>添加</li>
+	</ul>
+	<div class='hobby'>
+		<input type="text" placeholder='请输入您的爱好' class='hoby'>
+		<input class="btn btn-default sub" type="submit" value="提交">
+	</div>
+</div>
+</div>
+<div class='information'>
+	<h3>基本信息<i></i></h3>
+	<table class="table">
+		<tbody>
+			<tr>
+				<td>姓名</td>
+				<td>刘哼</td>
+			</tr>
+			<tr>
+				<td>性别</td>
+				<td>女</td>
+				
+			</tr>
+			<tr>
+				<td>邮箱</td>
+				<td>jishu@sina.com</td>
+				
+			</tr>
+			<tr>
+				<td>手机</td>
+				<td>13871561234</td>
+			</tr>
+			<tr>
+				<td>身份证</td>
+				<td>4870198109122345</td>
+			</tr>
+		</tbody>
+	</table>
+	<table class="table">
+		<tbody>
+			<tr>
+				<td>QQ</td>
+				<td>15634862</td>
+			</tr>
+			<tr>
+				<td>活跃地址</td>
+				<td>北京</td>
+			</tr>
+			<tr>
+				<td>地址</td>
+				<td>北京市丰台区</td>
+			</tr>
+				<tr>
+				<td>活跃地址</td>
+				<td>北京</td>
+			</tr>
+			<tr>
+				<td>地址</td>
+				<td>北京市丰台区</td>
+			</tr>
+			</tbody>
+		</table>
+</div>
+<div class='information'>
+	<h3>设备信息<i></i></h3>
+	<table class="table">
+		<tbody>
+			<tr>
+				<td>姓名</td>
+				<td>刘哼</td>
+			</tr>
+			<tr>
+				<td>性别</td>
+				<td>女</td>
+				
+			</tr>
+			<tr>
+				<td>邮箱</td>
+				<td>jishu@sina.com</td>
+				
+			</tr>
+			<tr>
+				<td>手机</td>
+				<td>13871561234</td>
+			</tr>
+			<tr>
+				<td>身份证</td>
+				<td>4870198109122345</td>
+			</tr>
+		</tbody>
+	</table>
+	<table class="table">
+		<tbody>
+			<tr>
+				<td>QQ</td>
+				<td>15634862</td>
+			</tr>
+			<tr>
+				<td>活跃地址</td>
+				<td>北京</td>
+			</tr>
+			<tr>
+				<td>地址</td>
+				<td>北京市丰台区</td>
+			</tr>
+				<tr>
+				<td>活跃地址</td>
+				<td>北京</td>
+			</tr>
+			<tr>
+				<td>地址</td>
+				<td>北京市丰台区</td>
+			</tr>
+			</tbody>
+		</table>
+</div>
+<div class='information'>
+	<h3>账号信息<i></i></h3>
+	<table class="table">
+		<tbody>
+			<tr>
+				<td>姓名</td>
+				<td>刘哼</td>
+			</tr>
+			<tr>
+				<td>性别</td>
+				<td>女</td>
+				
+			</tr>
+			<tr>
+				<td>邮箱</td>
+				<td>jishu@sina.com</td>
+				
+			</tr>
+			<tr>
+				<td>手机</td>
+				<td>13871561234</td>
+			</tr>
+			<tr>
+				<td>身份证</td>
+				<td>4870198109122345</td>
+			</tr>
+		</tbody>
+	</table>
+	<table class="table">
+		<tbody>
+			<tr>
+				<td>QQ</td>
+				<td>15634862</td>
+			</tr>
+			<tr>
+				<td>活跃地址</td>
+				<td>北京</td>
+			</tr>
+			<tr>
+				<td>地址</td>
+				<td>北京市丰台区</td>
+			</tr>
+				<tr>
+				<td>活跃地址</td>
+				<td>北京</td>
+			</tr>
+			<tr>
+				<td>地址</td>
+				<td>北京市丰台区</td>
+			</tr>
+			</tbody>
+	</table>
+	<table class="table">
+		<tbody>
+			<tr>
+				<td>QQ</td>
+				<td>15634862</td>
+			</tr>
+			<tr>
+				<td>活跃地址</td>
+				<td>北京</td>
+			</tr>
+			<tr>
+				<td>地址</td>
+				<td>北京市丰台区</td>
+			</tr>
+				<tr>
+				<td>活跃地址</td>
+				<td>北京</td>
+			</tr>
+			<tr>
+				<td>地址</td>
+				<td>北京市丰台区</td>
+			</tr>
+			</tbody>
+		</table>
+</div>
+<div style='padding:10px;' class='artbox'>
+	
+	<h3>用户反馈信息<i></i></h3>
+	<p>最新反馈问题的TOP10产品</p>
+	<span class='col-md-1'></span>
+	<span class='col-md-1'><img src="images/ups_18.png" alt="" ><a href="javascript:;">手机卫士</a></span>
+	<span class='col-md-1'><img src="images/ups_11.png" alt=""><a href="javascript:;">手机卫士</a></span>
+	<span class='col-md-1'><img src="images/ups_21.png" alt=""><a href="javascript:;">手机卫士</a></span>
+	<span class='col-md-1'><img src="images/ups_23.png" alt=""><a href="javascript:;">手机卫士</a></span>
+	<span class='col-md-1'><img src="images/ups_13.png" alt=""><a href="javascript:;">手机卫士</a></span>
+	<span class='col-md-1'><img src="images/ups_15.png" alt=""><a href="javascript:;">手机卫士</a></span>
+	<span class='col-md-1'><img src="images/ups_26.png" alt=""><a href="javascript:;">手机卫士</a></span>
+	<span class='col-md-1'><img src="images/ups_28.png" alt=""><a href="javascript:;">手机卫士</a></span>
+	<span class='col-md-1'><img src="images/ups_30.png" alt=""><a href="javascript:;">手机卫士</a></span>
+	<span class='col-md-1'><img src="images/ups_32.png" alt=""><a href="javascript:;">手机卫士</a></span>
+	<span class='col-md-1'></span>
+</div>
+<div class='UserFeedback'>
+	<table class="table table-striped tick_tables table_top">
+				<tbody>
+				<tr>
+					<td colspan="11">最长反馈的TOP10产品</td>
+				</tr>
+				<tr>
+					<td>序号</td>
+					<td>1</td>
+					<td>2</td>
+					<td>3</td>
+					<td>4</td>
+					<td>5</td>
+					<td>6</td>
+					<td>7</td>
+					<td>8</td>
+					<td>9</td>
+					<td>10</td>
+				</tr><tr>
+					<td>产品</td>
+					<td>1</td>
+					<td>2</td>
+					<td>3</td>
+					<td>4</td>
+					<td>5</td>
+					<td>6</td>
+					<td>7</td>
+					<td>8</td>
+					<td>9</td>
+					<td>10</td>
+				</tr><tr>
+					<td>功能</td>
+					<td>1</td>
+					<td>2</td>
+					<td>3</td>
+					<td>4</td>
+					<td>5</td>
+					<td>6</td>
+					<td>7</td>
+					<td>8</td>
+					<td>9</td>
+					<td>10</td>
+				</tr>
+				</tbody>
+			</table>
+</div>
+<div style='padding:10px;' class='artbox'>
+	
+	<h3>产品使用情况</h3>
+	<p>产品使用TOP10</p>
+	<span class='col-md-1'></span>
+	<span class='col-md-1'><img src="images/ups_11.png" alt="" ><a href="javascript:;">手机卫士</a></span>
+	<span class='col-md-1'><img src="images/ups_18.png" alt=""><a href="javascript:;">手机卫士</a></span>
+	<span class='col-md-1'><img src="images/ups_45.png" alt=""><a href="javascript:;">手机卫士</a></span>
+	<span class='col-md-1'><img src="images/ups_47.png" alt=""><a href="javascript:;">手机卫士</a></span>
+	<span class='col-md-1'><img src="images/ups_23.png" alt=""><a href="javascript:;">手机卫士</a></span>
+	<span class='col-md-1'><img src="images/ups_26.png" alt=""><a href="javascript:;">手机卫士</a></span>
+	<span class='col-md-1'><img src="images/ups_50.png" alt=""><a href="javascript:;">手机卫士</a></span>
+	<span class='col-md-1'><img src="images/ups_32.png" alt=""><a href="javascript:;">手机卫士</a></span>
+	<span class='col-md-1'><img src="images/ups_53.png" alt=""><a href="javascript:;">手机卫士</a></span>
+	<span class='col-md-1'><img src="images/ups_28.png" alt=""><a href="javascript:;">手机卫士</a></span>
+	<span class='col-md-1'></span>
+</div>
+<div class='UserFeedback'>
+	<table class="table table-striped tick_tables table_top">
+				<tbody>
+				<tr>
+					<td colspan="11">产品功能使用TOP10</td>
+				</tr>
+				<tr>
+					<td>序号</td>
+					<td>1</td>
+					<td>2</td>
+					<td>3</td>
+					<td>4</td>
+					<td>5</td>
+					<td>6</td>
+					<td>7</td>
+					<td>8</td>
+					<td>9</td>
+					<td>10</td>
+				</tr><tr>
+					<td>产品</td>
+					<td>1</td>
+					<td>2</td>
+					<td>3</td>
+					<td>4</td>
+					<td>5</td>
+					<td>6</td>
+					<td>7</td>
+					<td>8</td>
+					<td>9</td>
+					<td>10</td>
+				</tr><tr>
+					<td>功能</td>
+					<td>1</td>
+					<td>2</td>
+					<td>3</td>
+					<td>4</td>
+					<td>5</td>
+					<td>6</td>
+					<td>7</td>
+					<td>8</td>
+					<td>9</td>
+					<td>10</td>
+				</tr>
+				</tbody>
+			</table>
+</div>
+<div style='padding:10px;' class='artbox'>
+	<h3>反馈渠道记录</h3>
+</div>
+<div class='UserFeedback'>
+	<table class="table table-striped tick_tables table_ditch">
+				<tbody>
+				<tr>
+					<td>序号</td>
+					<td>日期</td>
+					<td>渠道</td>
+					<td>产品</td>
+					<td>内容</td>
+				</tr>
+					<tr>
+						<td>1</td>
+						<td>20160824</td>
+						<td>反馈</td>
+						<td>手机卫士</td>
+						<td>360手机卫士产品改进方案.doc</td>
+					</tr><tr>
+						<td>1</td>
+						<td>20160824</td>
+						<td>反馈</td>
+						<td>手机卫士</td>
+						<td>360手机卫士产品改进方案.doc</td>
+					</tr><tr>
+						<td>1</td>
+						<td>20160824</td>
+						<td>反馈</td>
+						<td>手机卫士</td>
+						<td>360手机卫士产品改进方案.doc</td>
+					</tr><tr>
+						<td>1</td>
+						<td>20160824</td>
+						<td>反馈</td>
+						<td>手机卫士</td>
+						<td>360手机卫士产品改进方案.doc</td>
+					</tr><tr>
+						<td>1</td>
+						<td>20160824</td>
+						<td>反馈</td>
+						<td>手机卫士</td>
+						<td>360手机卫士产品改进方案.doc</td>
+					</tr><tr>
+						<td>1</td>
+						<td>20160824</td>
+						<td>反馈</td>
+						<td>手机卫士</td>
+						<td>360手机卫士产品改进方案.doc</td>
+					</tr>
+				</tbody>
+			</table>
+</div>
+</section>
+<script type="text/javascript" src='js/jquery-2.2.0.js'></script>
+<script type="text/javascript" src='js/bootstrap.min.js'></script>
+<script type="text/javascript" src='js/userPortaitSystem.js'></script>
+<script>
+    $(function() {
+        $(".form-inline .btn").click(function(){
+            $(this).button('loading').queue(function() {
+            });
+        });
+    });
+var fullName = "Ms";
+      function getParams(name){
+        if(name){
+            var fullName = "."+name; 
+        }
+      }
+      getParams("lili");
+      console.log(fullName);
+</body>
+</html>
